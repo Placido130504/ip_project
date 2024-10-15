@@ -1,0 +1,68 @@
+body {
+    background-color: #f1f1f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 20px;
+    background-color: #101020;
+    border: 2px solid #ffc107;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #ffc107;
+    text-align: center;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ffc107;
+  }
+  
+  .card-title {
+    color: #ffc107;
+    margin-top: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .audio {
+    margin-top: 10px;
+  }
+  
+  .audio1 {
+    width: 100%;
+    border: none;
+    background: transparent;
+  }
+  
+  .audio1::-webkit-media-controls-panel {
+    background-color: #eaeaf0;
+    color: #ffc107;
+  }
+  
+  .audio1::-webkit-media-controls-play-button,
+  .audio1::-webkit-media-controls-current-time-display,
+  .audio1::-webkit-media-controls-time-remaining-display {
+    color: #ffc107;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .control-btn {
+    color: #ffc107;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .control-btn:hover {
+    color: #fff;
+  }
+  
